@@ -178,8 +178,8 @@ public class Parser {
                 case WHILE:
                     return;
             }
+            
+            advance();
         }
-
-        advance();
     }
 }
